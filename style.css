@@ -1,0 +1,1125 @@
+/* SECTION1 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    
+ }
+ @font-face {
+    font-family: 'Roca';
+    src: url('assets/roca-one-bold.ttf');
+}
+ body{
+    overflow-x: hidden !important; 
+ }
+
+
+
+ /* SECTION1 */
+
+ 
+ .star_bg {
+    background: url('assets/images/star.png');
+    /* border: 2px solid red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    /* Initial state without animation */
+    animation: none;
+}
+.star_bg.animate{
+    animation: panIn 2s ease-in-out forwards;
+}
+@keyframes panIn {
+    0% {
+        background-size: 100%; /* Start with the background image zoomed in */
+        opacity: 0;
+    }
+    50% {
+        background-size: 200%; /* Pan to the original size */
+        opacity: 1;
+    }
+    100% {
+        background-size: 150%; 
+        opacity: 1;
+    }
+}
+
+#section1 .spec{
+    font-family: "DM Sans";
+    font-weight: 500;
+}
+
+.subHeading{
+    font-family: 'Roca';
+    font-size: 40px;
+    color: #5271FF;
+}
+
+.page1btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #343CFF;
+    border-radius: 13px; 
+    padding: 10px 36px;
+    margin: 10px 0;
+
+}
+
+#section1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.page1btn:hover {
+    background: #343CFF; 
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0D0149;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+
+}
+
+.new4 {
+    height: 2px;
+background-color: #EFECFF;
+width: 350px;
+margin-top: 0%;
+display:block;
+height:3px;
+background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+margin-left: auto;
+margin-right: auto;
+  }
+
+.page1 .HeadingMain{
+    color: #9F8BFF;
+    font-family: 'Roca';
+    font-size: 90px;
+   
+}
+
+.page1 .btnWork{
+    z-index: 2;
+}
+
+/* SECTION2 */
+
+#section2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px; 
+    background-color: #EFECFF;     
+ }
+
+ #section2 #left {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;  
+ }
+ .mobile_view{
+    display: none;
+ }
+ #section2 #right img{
+    border: 2px solid purple;
+ } 
+
+ 
+    #section2 h3 {
+        color: #8C52FF; 
+        /* font-size: clamp(40px , 63px);  */
+        font-family: Roca;
+        /* margin-left: -128px; */
+    }
+
+    
+.page2 .mainPage{
+    width: 90%;
+    margin-top: 3.2%;
+    margin-bottom: 3.2%;
+    height: fit-content;
+    height: -moz-fit-content;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2 .leftPage{
+    height: fit-content;
+}
+
+.page2 .HeadingMain2{
+    font-size: 63px;
+    height: fit-content;
+}
+
+.page2 .subHeading3{
+    font-size: 22px;
+}
+
+.page2 .rightPage{
+    margin-left: -3%;
+}
+
+.page2 img{
+    width:100%;
+    height: fit-content;
+    height: -moz-fit-content;
+}
+
+/* SECTION3 */
+
+.page3{
+    height: fit-content !important;
+  
+    background-color: #5271FF  !important;
+    width: 100vw;
+   
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roca';
+    font-size: 14px;
+    padding-bottom: 8%;
+        
+}
+.page3 .row{
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Roca';
+    font-size: 14px;
+    padding-bottom: 4%;
+    margin-top: 10px;
+}
+
+
+.HeadingMain3{
+    font-family: 'Roca';
+    font-size: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.blue_bckg{
+    background-color:white !important ;
+    color: #0A004B;
+    font-family: 'Roca';
+    font-size: 26px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1%;
+   display: inline-block;
+   
+}
+
+/* SECTION4 */
+
+
+.page4 .FintechCards p {
+    
+    background-color: #8C52FF;
+    color: white;
+}
+
+.section4 {
+    background: linear-gradient(to bottom, white 48%, #8C52FF 48%);
+    height: 100vh;
+    width: 100% !important;
+    position: relative;
+}
+
+.page4 .sec4topi{
+    position: absolute;
+    width: 80px;
+    right: 0%;
+    top: 20px;
+}
+.page4 .sec4boti{
+    position: absolute;
+    width: 100px;
+    left: 0%;
+
+}
+
+ .HeadingMain4 {
+    font-family: 'Roca';
+    font-size: clamp(40px, 7vw + 1rem, 100px);
+    margin-left: 11%;
+    background-color: white;
+    color: #5271FF;
+}
+
+ .banks {
+    color: #8C52FF;
+}
+
+ .hexagon {
+    width: 200px;
+    height: 180px;
+    background: #150869; 
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 3;
+   
+}
+
+ .hexagon::before {
+    content: '';
+    width: 200px;
+    height: 180px;
+    background: linear-gradient(180deg, #C04BE2, #5C62E6);
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+    position: absolute;
+    bottom: 13px;
+    left: 0;
+    z-index: -5;
+   
+}
+
+
+ .imgdiv {
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION5 */
+/* .page5{
+    height: 100vh;
+    background-color: #0A004B;
+    color: white;
+    background: url(assets/images/6.png);
+} */
+
+.page5{
+    height: 130vh;
+    width: 100vw;
+    background-image: url('../assets/images/6.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #0A004B;
+    background-size:100% 100%; 
+}
+
+.page5 .HeadingMain5 {
+    font-family: 'Roca';
+    font-size: 50px;
+    margin-left: 11%;
+    color: white;
+}
+
+.page5 .card-img-top{
+    width: 53%;
+    margin-top: 5%;
+}
+
+
+
+.page5 .tranCard{
+    background-color: transparent;
+    color: #5271FF;
+    font-family: "DM Sans";
+   
+}
+
+.page5 .tranCard .card-title{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.page5 .whiteCard .card-title{
+    color: #5271FF;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+
+.page5 .blueCard .card-title{
+    color: #0A004B;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+
+.page5 .blueCard{
+    background-color: #5271FF ;
+    color: white;
+}
+
+.page5 .card-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+ 
+}
+
+.page5 .card-body{
+    height: 45vh;
+    width: 15vw; 
+
+}
+
+
+.page5 .card5{
+    /* border: 2px solid purple; */
+    padding-right: 0px;
+  
+   
+   
+    /* margin: 25px 25px; */
+}
+
+.page5 .card5 ul{
+    /* border: 2px solid yellow; */
+    height: fit-content;
+    height: -moz-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+   
+}
+
+/* SECTION6 */
+.page6{
+    background-color:white;
+    color: #0A004B;
+    width: 100vw;
+    padding-bottom: 6%;
+}
+.box{
+    border: 7px solid #8C52FF;
+    
+    
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    /* padding-left: 4%; */
+    /* margin-right: 25%; */
+    font-family: 'DM Sans';
+    font-size: 18.8px;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.page6 p{
+    font-family: 'DM Sans';
+    font-size: 16px;
+}
+
+.HeadingMain6{
+    font-family: 'Roca';
+    font-size: 32px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: -35px;
+}
+.custombox
+{
+    margin-left: 11% !important;
+}
+
+.page7 .page7_1{
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url('../assets/images/7.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #0A004B;
+    background-size:100% 100%; 
+ 
+}
+
+.page7 .page7_2{
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url('../assets/images/8.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #0A004B;
+    background-size:100% 100%; 
+    padding-top: 15%;
+ 
+}
+
+
+.head7{
+    font-family: "Roca";
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    color: white;
+   font-size: 56px;
+}
+
+.head7_1{
+    font-family: "Roca";
+    display: flex;
+    justify-content: center;
+    color: #8C52FF;
+    font-size: 56px;
+}
+
+.whi-pur{
+    background-color: white;
+    color: #8C52FF;
+    font-family: "Roca";
+    
+    padding: 30px;
+
+
+}
+
+.pur-whi{
+   color: white;
+   background-color: #8C52FF;
+    font-family: "Roca";
+   
+    padding: 30px;
+}
+
+
+
+.row7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION8 */
+
+.page8{
+    background-color: #0A004B;
+    color: #ffff;
+
+}
+
+.page8 .page8heading{
+    font-family: "Roca";
+    color: #8C52FF;
+    font-size: 56px;
+}
+
+.page8 .head8{
+    font-family: "Roca";
+    padding: 20px;
+}
+
+.page8 .cardFintech1{
+    position: relative;
+    border: 20px solid transparent;
+    border-image-source: url('assets/images/border_image.png');
+    border-image-slice: 6%; 
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid; 
+  
+}
+
+.page8 .cardFin{
+    background: transparent;
+    border-radius: 20px;
+    height: 98%;
+
+}
+
+.page8 .page8_2{
+    /* height: 100vh;
+    width: 100vw; */
+    background-image: url('assets/images/9.png') !important;
+    background-position: bottom right;
+    /* background-repeat: no-repeat; */
+    /* background-size:contain; */
+    background-color: #0A004B;
+    background-size:50% 100%; 
+    background-repeat: no-repeat;
+
+    /* padding-top: 15%; */
+}
+
+.page8 .sec8left{
+    position: absolute;
+    width: 15%;  
+}
+.page8 .sec8leftb{
+    position: absolute;
+    width: 15%; 
+    left: 20%; 
+}
+
+/* SECTION9 */
+
+
+
+.head9{
+    font-family: "Roca";
+    font-size: 50px;
+   color: white;
+
+}
+
+
+
+.page10 {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #5271FF;
+
+    color: #fff;
+ 
+}
+.footer{
+    background-image: url("assets/images/footer.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -7%;
+}
+
+.img-logo-container {
+    display: flex;
+  
+    width: 90%;
+    margin-left: 5%;
+    border: 5px solid white;
+    overflow-x: hidden;
+  }
+  
+  .img-logo-container img {
+    flex: 1 0 60%;
+    object-fit: cover;
+  }
+  
+  .hidden-img {
+    display: none;
+  }
+  .footer3{
+    background-color: #221576;
+    width: 30%;
+    margin-left: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 30px;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+/*---------------------- MOBILE VIEW -------------------*/
+
+/* SECTION1 */
+.mobile_view{
+    display: none !important;
+}
+@media (max-width: 576px) {
+    body{
+        overflow-x:hidden !important;
+        max-width: 100vw !important;
+    }
+    .mobile_view{
+        display: block !important;
+    }
+    .web_view{
+        display: none !important;
+    }
+ 
+    .new4 {
+        height: 2px;
+    background-color: #EFECFF;
+    width: 80%;
+    margin-top: -2%;
+    display:block;
+    height:3px;
+    background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin-left: auto;
+    margin-right: auto;
+      }
+
+      .button_big {
+        color: white;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 2px solid #343CFF;
+        border-radius: 13px; 
+        padding: 10px 6px;
+        margin: 5px 0;
+    
+    }
+    
+    .button_big:hover {
+        background: #343CFF; 
+    }
+    .page1 .HeadingMain{
+        font-size: 30px;
+        margin-top: 22px;
+    }
+
+
+    .page1{
+        height: fit-content;
+        padding: 10% 0;
+    }
+
+    .star_bgMB {
+        background: url('assets/images/star.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    
+   
+        animation: none;
+    }
+    .star_bgMB.animate{
+        animation: panIn 2s ease-in-out forwards;
+    }
+    @keyframes panIn {
+        0% {
+            background-size: 100%;
+            opacity: 0;
+        }
+        50% {
+            background-size: 200%; 
+            opacity: 1;
+        }
+        100% {
+            background-size: 150%; 
+            opacity: 1;
+        }
+    }
+
+    .mobile .page2 .HeadingMain2{
+        width: -moz-fit-content;
+        width: fit-content;
+        font-size: 32px;
+    }
+
+    .page2 .subHeading3{
+        font-size: 20px;
+    }
+
+    .page3mob {
+        background-image: url('assets/images/sec3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 100vw; */
+        width: fit-content;
+        width: -moz-fit-content;
+        height: fit-content;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px; 
+      
+    }
+    .page3_1{
+        background-image: url('assets/images/Page3New.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* width: 100vw; */
+        width: fit-content;
+        width: -moz-fit-content;
+        height: fit-content;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px; 
+    }
+    
+    .page3mob .content {
+        /* width: 100%; */
+        width: fit-content;
+        width: -moz-fit-content;
+        margin: 0 auto;
+    }
+    
+    .page3mob .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-family: 'Roca';
+        font-size: 14px;
+        /* padding-bottom: 4%; */
+    }
+    
+    .page3mob .row .text-center h4 {
+        margin-bottom: 20px;
+    }
+
+    .page4{
+        height: fit-content;
+        height: -moz-fit-content;
+   
+    }
+
+    .page4 .HeadingMain4{
+        width: -moz-fit-content;
+        width: fit-content;
+        font-size: 33px;
+       
+    }
+
+    .page4 .sec4top{
+        position: absolute;
+        width: 80px;
+        right: 0%;
+    }
+    .page4 .sec4bot{
+        position: absolute;
+        width: 100px;
+        left: -2%;
+       
+       
+    }
+    
+     /* .page4 .cardPara p{
+        margin-left: 20px;
+    } */
+
+   .page4 .FintechCards .page4sub{
+    color: #5271FF;
+    background-color: white;
+    font-weight: bolder;
+   
+   } 
+   .page4 .FintechCards .page4cont{
+    color: #5271FF;
+    background-color: white;
+ 
+   } 
+
+   .page5mob .HeadingMain5 {
+    font-family: 'Roca';
+    font-size: 50px;
+    color: white;
+}
+
+.page4 .FintechCards p{
+    margin-left: 5%;
+}
+
+
+   /* SECTION5 */
+
+
+
+   .page5mob {
+    /* padding: 20px; */
+    height: fit-content;
+    height: -moz-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    overflow-x: hidden;
+    background-color: #0A004B;
+    color: white;
+
+
+  }
+
+  .page5mob .sec8top{
+    position: absolute;
+    width: 100px;
+    left: 0%;
+}
+
+
+  
+  .page5mob .HeadingMain5 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .page5mob .card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  
+   .page5mob .card img {
+    width: 40%;
+    height: auto;
+   margin-top: 10%;
+   margin-left: 30% !important;
+   margin-bottom: 0px;
+    
+  }
+  
+  .page5mob .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+ 
+  }
+
+  .page5mob .tranCard{
+    background-color: transparent;
+    color: #5271FF;
+    font-family: "DM Sans";
+  }
+
+  .page5mob .tranCard .card-title{
+    color: white;
+    font-weight: bold;
+    font-family: "Roca";
+  }
+
+
+
+  .page5mob .tranCard1 .card-title{
+    color: #5271FF;
+    font-family: "Roca";
+    font-weight: bold;
+  }
+  .page5mob .tranCard2{
+    background-color: #5271FF ;
+    color: white;
+   
+
+  }
+  .page5mob .tranCard2 .card-title{
+   color: #0A004B;
+   font-family: "Roca";
+   
+
+  }
+  .page5mob .card-body{
+    height: 40vh;
+    width: 55vw;
+}
+.page5mob .card5{
+    /* border: 2px solid purple; */
+    margin: 15px 0;
+}
+
+.page5mob .card-title{
+    margin-left: -20px;
+}
+
+.page5mob .tranCard2 .card-body{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+}
+
+/* .page5mob .tranCard2 h5{
+    mar
+} */
+
+
+
+
+  /* Media Queries for Responsiveness */
+  /* @media (max-width: 1200px) {
+    .card {
+      flex: 1 1 calc(33.333% - 40px); 
+      max-width: calc(33.333% - 40px);
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .card {
+      flex: 1 1 calc(50% - 40px); 
+      max-width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(100% - 40px);
+      max-width: calc(100% - 40px);
+    }
+  } */
+  
+  
+
+  #page6mob{
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .page6{
+    background-color:white;
+    color: #0A004B;
+    width: 100vw;
+    padding-bottom: 6%;
+}
+
+.box{
+    border: 7px solid #8C52FF;
+    border-radius: 10px;
+    font-family: 'DM Sans'; 
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.page6 p{
+    font-family: 'DM Sans'; 
+}
+
+.HeadingMain6{
+    font-family: 'Roca';
+    display: flex;
+    margin-top: 100px;
+}
+
+
+#page7mob .head7{
+    font-size: 10vw;
+}
+#page7mob .head7_1{
+    font-size: 10vw;
+}
+
+.page7img {
+    background-image: url('assets/images/sec7.png');
+    background-size: contain;
+    background-position: 0px -390px;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
+    top: -80px;
+}
+
+#page7mob .sec7bot{
+    position: absolute;
+    width: 120px;
+    left: 70%;
+}
+#page7mob .sec7left{
+    position: absolute;
+    width: 100px;
+    right: 78%;
+}
+
+.page8{
+    position: relative;
+}
+
+
+.page8 .sec8bot{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 300px;
+    
+}
+
+.page8 .green{
+    z-index: 1;
+}
+
+
+
+
+
+
+
+/* .page7_1mob{
+        height: 100vh;
+        background-image: url('assets/images/sec7.png') !important;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color: #0A004B;
+        background-size:100% 100%; 
+} */
+
+.head9{
+    font-size: 35px;
+}
+
+.footerStyle {
+    background: url(assets/images/Ellipse_43.png);
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+
+
+  .page9 {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #5271FF;
+
+    color: #fff;
+ 
+  }
+
+
+  }
+
+.mobile .page1 .vol{
+    z-index: 9;
+    
+}
+
+
+
